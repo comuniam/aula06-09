@@ -1,0 +1,96 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=SUSE:wght@100..800&display=swap');
+</style>
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(51, 169, 238);
+}
+
+#animacao {
+    margin-left: 240px;
+    }
+
+#h1 {
+    text-align: center ;
+    float: right;
+    font-family: "Nerko One", cursive;
+}
+
+#header {
+    background-color: #f0ff23;
+    margin: 0px 90px 3px 90px;
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+    font-family: "Nerko One", cursive;
+}
+
+#nav {
+    background-color: #f0ff23;
+    padding: 20px;
+    text-align: left;
+    float: left;
+    margin: 3px 3px 3px 90px;
+    width: 150px;
+    font-family: "SUSE", sans-serif;
+    font-size: small;
+}
+
+#content {
+    background-color: #f0ff23;
+    margin: 6px 90px 0px 285px;
+    text-align: justify;
+    padding: 20px;
+    font-family: "SUSE", sans-serif;
+}
+
+#nav ul {
+    list-style-type: none;
+    background-color: #f0ff23;
+  }
+  
+#nav li a {
+    display: block;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+#nav li a:hover {
+    background-color: #1c6b75;
+    color: #eee
+  }
+
+#menu2 {
+    text-align: center;
+}
+
+#footer {
+    margin: 3px 90px 0px 90px;
+    color: #fff;
+    background-color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+#contato {
+    width: 200px;
+    height: 145px;
+    border: solid 1px #000;
+    color: #000;
+}
+
+.active {
+    background-color: #1c6b75;
+  }
